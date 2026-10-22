@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#112e43">
+  <meta name="description" content="A curated collection of public papers, code, datasets and benchmarks for AI virtual cells.">
+  <meta property="og:title" content="Awesome AI Virtual Cells">
+  <meta property="og:description" content="Representation learning, perturbation-response prediction and intervention discovery and design.">
+  <title>Awesome AI Virtual Cells</title>
+  <link rel="icon" href="assets/logo.png" type="image/png">
+  <link rel="stylesheet" href="assets/site.css">
+  <script src="assets/catalog.js" defer></script>
+  <script src="assets/site.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="nav-shell"><nav class="nav wrap" aria-label="Main navigation">
+    <a class="brand" href="#"><img src="assets/logo.png" alt="" width="30" height="30">AI Virtual Cells<span>PAPERS &amp; CODE</span></a>
+    <div class="nav-links"><a href="#tasks">Tasks</a><a href="#catalog">Catalogue</a><a href="#contribute">Contribute</a><a id="repo-link" href="README.md" class="nav-repo">Repository ↗</a></div>
+  </nav></header>
+  <main id="main">
+    <section class="hero">
+      <div class="hero-orbit" aria-hidden="true"><i></i><i></i><i></i></div>
+      <div class="wrap hero-content">
+        <div class="eyebrow light">PUBLIC PAPERS · CODE · DATASETS · BENCHMARKS</div>
+        <h1>Awesome<br><em>AI Virtual Cells.</em></h1>
+        <p class="hero-subtitle">Representation learning, perturbation-response prediction, and intervention discovery and design.</p>
+        <div class="hero-actions"><a class="button primary" href="#catalog">Explore papers &amp; code <span>↓</span></a><a class="button outline" href="README.md">Read the full list <span>↗</span></a></div>
+      </div>
+      <div class="wrap scope-strip" aria-label="Three computational tasks"><a href="#representation"><b>01</b><div><strong>State representation</strong><span>Learn reusable cellular features</span></div><span class="arrow">↗</span></a><a href="#prediction"><b>02</b><div><strong>Response prediction</strong><span>Predict intervention-conditioned outcomes</span></div><span class="arrow">↗</span></a><a href="#design"><b>03</b><div><strong>Intervention design</strong><span>Find actions for desired outcomes</span></div><span class="arrow">↗</span></a></div>
+    </section>
+    <section id="tasks" class="section wrap">
+      <div class="section-heading"><div><div class="eyebrow">BROWSE BY COMPUTATIONAL TASK</div><h2>Representation.<br>Prediction. Design.</h2></div><p>Explore methods across RNA, chromatin, protein and spatial measurements.</p></div>
+      <div class="scope-cards">
+        <article class="scope-card rna" id="representation"><span class="scope-index">01 / REPRESENTATION</span><h3>Learn cellular states</h3><p>Encode molecular and spatial measurements into reusable features.</p><ul><li>Cell and gene embeddings</li><li>Multimodal alignment</li><li>Reconstruction and transfer</li></ul><button class="text-link" data-category="State representation learning">Browse representation methods →</button></article>
+        <article class="scope-card multimodal" id="prediction"><span class="scope-index">02 / PREDICTION</span><h3>Predict responses</h3><p>Use reference states, interventions and context to estimate outcomes.</p><ul><li>Molecular profiles and populations</li><li>Temporal and spatial responses</li><li>Cross-context generalization</li></ul><button class="text-link" data-category="Perturbation-response prediction">Browse response methods →</button></article>
+        <article class="scope-card tissue" id="design"><span class="scope-index">03 / DESIGN</span><h3>Find interventions</h3><p>Retrieve, predict, search for or generate actions for a desired outcome.</p><ul><li>Targets and existing perturbations</li><li>Drug combinations</li><li>Conditional molecule generation</li></ul><button class="text-link" data-category="Intervention discovery and design">Browse design methods →</button></article>
+      </div>
+      <div class="stat-row" id="stats" aria-label="Catalogue statistics"></div>
+    </section>
+    <section id="catalog" class="section catalogue-section"><div class="wrap">
+      <div class="section-heading"><div><div class="eyebrow">PAPERS · CODE · DATA · BENCHMARKS</div><h2>Explore the catalogue.</h2></div><div><p>Search public literature and follow the publication, implementation and data links.</p><div class="download-links"><a href="README.md">Full reading list ↗</a></div></div></div>
+      <div class="catalog-layout">
+        <aside class="catalog-sidebar"><h3>Browse by task</h3><div id="category-list" class="category-list"></div><div class="audit-note"><strong>Reading guide</strong><p>Task relationships, computational components and measurement labels.</p><a href="docs/READING_GUIDE.md">Read the guide ↗</a></div></aside>
+        <div class="catalog-main">
+          <form id="search-form" class="search-form" role="search"><label class="sr-only" for="search">Search names, titles and authors</label><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Search methods, titles, authors…" autocomplete="off"><button type="button" id="clear-search" aria-label="Clear search">×</button></form>
+          <div class="filter-row"><label>Year <select id="year"><option value="">All years</option></select></label><label>Measurement <select id="modality"><option value="">All measurements</option><option>RNA</option><option>ATAC</option><option>DNA</option><option>Protein</option><option>Spatial</option><option>Image</option></select></label><label class="checkbox"><input type="checkbox" id="code-only"> With code</label><button type="button" class="reset" id="reset">Reset</button></div>
+          <div class="results-line"><span id="result-count" aria-live="polite"></span><label class="sort-label">Sort <select id="sort"><option value="newest">Newest first</option><option value="name">Name A–Z</option><option value="oldest">Oldest first</option></select></label></div>
+          <div id="paper-grid" class="paper-grid"></div><div id="empty-state" class="empty-state" hidden>No matching records. Try another term or reset the filters.</div><button type="button" class="button load-more" id="load-more">Show more papers</button>
+          <noscript><p>Browse the complete <a href="README.md">README catalogue</a>.</p></noscript>
+        </div>
+      </div>
+    </div></section>
+    <section id="contribute" class="section wrap"><div class="section-heading"><div><div class="eyebrow">CONTRIBUTE</div><h2>Help keep the collection useful.</h2></div><div><p>Suggest public papers, add implementation links, or correct bibliographic details through issues and pull requests. Cite the original publications when using their methods or data.</p><a class="button subtle" href="CONTRIBUTING.md">Contribution guide ↗</a></div></div></section>
+  </main>
+  <footer><div class="wrap footer-content"><div class="brand"><img src="assets/logo.png" alt="" width="25" height="25">Awesome AI Virtual Cells</div><p>Public literature and code collection</p><div><a href="docs/COVERAGE.md">Catalogue information</a><a href="LICENSE">License</a><a href="#">Back to top ↑</a></div></div><div class="wrap credit">Repository presentation inspired by <a href="https://github.com/wkqdzkd/Awesome-Reliable-Self-Evolving-Agents">Awesome Reliable Self-Evolving Agents</a>.</div></footer>
+</body>
+</html>
