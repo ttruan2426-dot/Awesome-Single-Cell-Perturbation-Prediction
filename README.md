@@ -1021,11 +1021,6 @@ Further measurement technologies, analysis tools and related computational studi
 Add papers or correct links through issues and pull requests. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 
-## Acknowledgements
-
-Repository presentation was inspired by [Awesome Reliable Self-Evolving Agents](https://github.com/wkqdzkd/Awesome-Reliable-Self-Evolving-Agents).
-
-
 ## License
 
 Original repository code and catalogue organization use the [MIT License](LICENSE). Linked publications, datasets and implementations retain their respective licenses.
