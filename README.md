@@ -12,6 +12,8 @@ A Survey of AI Virtual Cells
 A curated collection of public papers, code, datasets and benchmarks for AI virtual cells.
 
 [![Papers](https://img.shields.io/badge/catalogue-241_records-3E7099?style=flat-square)](#contents)
+[![OpenReview PDF](https://img.shields.io/badge/OpenReview-PDF-A7372A?style=flat-square)](https://openreview.net/attachment?id=Wj0wOWu9Cj&name=pdf)
+[![Preprints.org Preprint](https://img.shields.io/badge/Preprints.org-Preprint-1677A9?style=flat-square)](https://www.preprints.org/manuscript/202611.0779)
 [![Code](https://img.shields.io/badge/code_links-151_records-43816B?style=flat-square)](#contents)
 [![Updated](https://img.shields.io/badge/updated-2026--10--22-8C657A?style=flat-square)](docs/COVERAGE.md)
 
