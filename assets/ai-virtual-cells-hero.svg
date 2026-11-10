@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1236" height="769" viewBox="0 651.732098 790.871464 492.055142" version="1.2" role="img" aria-labelledby="hero-title hero-description">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1236" height="769" viewBox="1.279727 652.044782 788.312009 490.462731" version="1.2" role="img" aria-labelledby="hero-title hero-description">
 <title id="hero-title">AI Virtual Cells</title><desc id="hero-description">Three connected tasks: learn cellular state representations, predict responses to perturbations, and use the response model to select interventions for a desired outcome.</desc><defs>
 <g>
 <symbol overflow="visible" id="glyph0-0">
@@ -721,8 +721,8 @@
 <clipPath id="clip4">
   <path d="M 0.0078125 0 L 790.734375 0 L 790.734375 1143.574219 L 0.0078125 1143.574219 Z M 0.0078125 0 " />
 </clipPath>
-</defs>
-<g id="surface1">
+<clipPath id="hero-rounded-frame" clipPathUnits="userSpaceOnUse"><rect x="1.279727" y="652.044782" width="788.312009" height="490.462731" rx="17.858201" ry="17.858201" /></clipPath></defs>
+<g clip-path="url(#hero-rounded-frame)"><g id="surface1">
 <g clip-path="url(#clip1)" clip-rule="nonzero">
 <rect x="0" y="0" width="790.871464" height="1143.78724" style="fill:rgb(100%,100%,100%);fill-opacity:1;stroke:none;" />
 </g>
@@ -1893,4 +1893,4 @@
   <use xlink:href="#glyph13-26" x="731.738767" y="1123.906453" />
 </g>
 </g>
-</svg>
+</g></svg>
