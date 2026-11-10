@@ -4,7 +4,7 @@
 
 <h1 align="center">
   <img src="assets/logo.png" width="52" height="52" alt="AI Virtual Cells logo">
-  Awesome AI Virtual Cells
+A Survey of AI Virtual Cells:
 </h1>
 
 **Representation Learning · Perturbation Prediction · Intervention Design**
