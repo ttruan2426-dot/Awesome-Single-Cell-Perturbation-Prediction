@@ -21,7 +21,7 @@ A curated collection of public papers, code, datasets and benchmarks for AI virt
 
 </div>
 
-![AI virtual cells: representation learning, perturbation prediction, and intervention design](assets/ai-virtual-cells-hero.png)
+![AI virtual cells: representation learning, perturbation prediction, and intervention design](assets/ai-virtual-cells-hero.svg)
 
 ## About
 
