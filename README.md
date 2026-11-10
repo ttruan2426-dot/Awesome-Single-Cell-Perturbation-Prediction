@@ -3,7 +3,7 @@
 <div align="center">
 
 <h1 align="center">
-  <img src="assets/logo.png" width="52" height="52" alt="AI Virtual Cells logo">
+  <img src="assets/logo.png" width="52" height="52" alt="AI Virtual Cells logo" valign="middle">
 A Survey of AI Virtual Cells
 </h1>
 
